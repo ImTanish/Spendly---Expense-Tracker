@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Spendly",
+    "slug": "Spendly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "package": "com.tanish7.spendly"
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "66ee9877-660b-4d70-9657-62141f4d1280"
+      }
+    },
+
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
